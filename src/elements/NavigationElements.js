@@ -11,6 +11,7 @@ export const NavigationWrapper = styled.nav`
   }
 
   & img {
+    display: none;
     height: 30px;
   }
 `
