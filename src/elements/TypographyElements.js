@@ -10,7 +10,7 @@ export const P = styled.p`
         return "1rem"
       case "xSmall":
         return "0.875rem"
-      case "default":
+      default:
         return "1.125rem"
     }
   }};
@@ -22,7 +22,7 @@ export const P = styled.p`
         return "1.375rem"
       case "xSmall":
         return "1.275rem"
-      case "default":
+      default:
         return "1.4375rem"
     }
   }};
@@ -36,7 +36,7 @@ export const P = styled.p`
         return 400
       case "bold":
         return 700
-      case "default":
+      default:
         return 400
     }
   }};
