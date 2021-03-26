@@ -1,0 +1,17 @@
+---
+title: Overview of Request For Change (RFC) Review Process
+slug: rfc-review-process
+date: 2020-03-2021
+featureImage: creative.jpeg
+excerpt: A pipe is a form of redirection that is used to send the output of one program to another program for further processing.
+---
+
+##### What is a pipe function?
+
+A pipe is a form of redirection that is used to send the output of one program to another program for further processing.
+
+##### Implementing a Pipe function
+
+```jsx
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x)
+```
