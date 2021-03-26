@@ -21,7 +21,6 @@ const allPosts = ({ pageContext, data }) => {
   const nextPage = `/${currentPage + 1}`
 
   const posts = data.allMdx.edges
-
   return (
     <Container>
       <FeatureImage />
