@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const NavigationWrapper = styled.div`
+export const NavigationWrapper = styled.nav`
   grid-column: 2 / span 12;
   grid-row: 1/2;
   display: flex;
@@ -10,7 +10,7 @@ export const NavigationWrapper = styled.div`
     grid-column: 2 / span 6;
   }
 
-  img {
-    max-width: 100px;
+  & img {
+    height: 30px;
   }
 `
